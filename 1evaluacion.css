@@ -1,0 +1,38 @@
+body{/*quitamos magenes del body*/
+  box-sizing: border-box;
+  background: #3CDBC0;
+  margin: 0;
+  padding: 0;
+}
+.img__1{
+  background: #FFFFFF;
+justify-content: center; /*centro el logo en el centro de la caja que he creado*/
+display: flex; /*añado flex box para justificar la imagen*/
+}
+.a-header{/*quito el subrayado del enlace y añado color y fuente*/
+  text-decoration: none;
+  font-size: 16px;
+  color: #4a4a4a;
+font-family: Rubik;
+padding: 10px 0px 13px 0px;
+
+}
+li{
+    list-style: none;/*quito los puntos a la list*/
+}
+.list{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px; /*pongo padding 0 para centrar*/
+background: #FFFFFF;
+}
+.item{
+  margin: 10px; /*añado 10px a cada margen que suman 20px entre ellos*/
+
+}
+.body{
+
+font-family: Rubik;
+color: #FFFFFF;
+}
